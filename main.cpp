@@ -5,7 +5,10 @@ void fibonacci(unsigned const int& number) {
     unsigned int firstSummand = 0;
     unsigned int secondSummand = 1;
 
-    for (int i = 1; i <= number; i++) {
+    std::cout << firstSummand << "\n";
+    std::cout << secondSummand << "\n";
+
+    for (int i = 0; i <= number; i++) {
         sum = firstSummand + secondSummand;
         firstSummand = secondSummand;
         secondSummand = sum;
