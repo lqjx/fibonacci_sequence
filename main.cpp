@@ -8,7 +8,7 @@ void fibonacci(unsigned const int& number) {
     std::cout << firstSummand << "\n";
     std::cout << secondSummand << "\n";
 
-    for (int i = 0; i <= number; i++) {
+    for (int i = 2; i < number; i++) {
         sum = firstSummand + secondSummand;
         firstSummand = secondSummand;
         secondSummand = sum;
